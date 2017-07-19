@@ -134,7 +134,7 @@ Initialize the Repositories
     repo init -u https://github.com/adeii/OctOS_manifest.git -b oct-mm 
     mkdir .repo/local_manifests
     cd .repo/local_manifests
-    wget https://raw.githubusercontent.com/adeii/exCM-LineageOS/cm-13.0/huawei.xml
+    wget https://raw.githubusercontent.com/adeii/OctOS_manifest/oct-mm/cm_huawei.xml
     cd ../..
     repo sync --force-sync --no-tags --no-clone-bundle
 
